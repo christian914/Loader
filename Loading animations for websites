@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<style class="css">
+    /* Styles for the preloader */
+.preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 90%;
+	height: 90%;
+	z-index: 9999;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.loader {
+	border: 10px solid #f3f3f3;
+	border-top: 14px solid #2fce9c;
+	border-radius: 70%;
+	width: 100px;
+	height: 100px;
+	animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+  </style>
+</head>
+<body>
+	<div class="preloader">
+		<div class="loader"></div>
+	</div>
+	
+	<!-- Rest of your website content -->
+	
+</body>
+</html>
